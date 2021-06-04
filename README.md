@@ -10,3 +10,4 @@ Watch tutorial on Youtube
 
 1. Open index.html in your broswer
 2. Have fun!
+3. Such a nice branch.

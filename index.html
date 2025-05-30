@@ -1,2 +1,21 @@
-<div>Hello</div>
-<p>there</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Button</title>
+</head>
+<body>
+    <div>Hello</div>
+    <p>there</p>
+    
+    <button id="myButton">Click me!</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('myButton').addEventListener('click', function() {
+            document.getElementById('result').textContent = "Congrats, you clicked the button!";
+        });
+    </script>
+</body>
+</html>
